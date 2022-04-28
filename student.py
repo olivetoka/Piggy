@@ -57,11 +57,11 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kaylee(self):
-      self.fwd(
+      self.fwd()
       time.sleep(2)
       self.stop()
       
-      )
+    
 
     def dance(self):
         """A higher-ordered algorithm to make your robot dance"""

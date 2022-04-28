@@ -57,7 +57,8 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kaylee(self):
-      while true():
+        self.fwd()
+        self.right()
         self.fwd()
         self.right()
         time.sleep(2)

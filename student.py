@@ -72,12 +72,9 @@ class Piggy(PiggyParent):
         """A higher-ordered algorithm to make your robot dance"""
       self.right()
       time.sleep(1) # turn for a second
-      self.stop() 
-      self.servo(1000)
-      time.sleep (2)# stop
-      self.left()
+      self.fwd()
       time.sleep(1)
-
+     
         # TODO: check to see if it's safe before dancing
         
         # lower-ordered example...

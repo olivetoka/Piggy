@@ -59,11 +59,11 @@ class Piggy(PiggyParent):
     def kaylee(self):
         for square in range(4):
           self.fwd()
-          #time.sleep (1)
-          #self.stop()
-          #self.right()
-          #time.sleep(1)
-          #self.stop()
+          time.sleep (1)
+          self.stop()
+          self.right()
+          time.sleep(1)
+          self.stop()
         
       
     

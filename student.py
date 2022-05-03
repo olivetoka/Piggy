@@ -60,7 +60,7 @@ class Piggy(PiggyParent):
         for square in range(4):
           self.fwd()
           time.sleep (1)
-          self.turnbydegree (90)
+          self.turnbydegree (40)
           self.stop()
         
       

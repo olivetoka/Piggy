@@ -74,11 +74,13 @@ class Piggy(PiggyParent):
       time.sleep(1)
       self.left()
       time.sleep(2)
+      self.stop()
       for dance in dance(4):
         self.fwd()
         time.sleep(1)
         self.back()
         time.sleep(1)
+        self.stop()
      
         # TODO: check to see if it's safe before dancing
         
